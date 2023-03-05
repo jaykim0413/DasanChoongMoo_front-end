@@ -1,0 +1,18 @@
+.top {
+  position: sticky;
+  top: 0;
+  background-color: rgb(41, 89, 153);
+  font-family: 'Nanum Pen Script', cursive;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+}
+
+.topLeft, .topRight {
+  flex: 3;
+}
+
+.topCenter {
+  flex: 6;
+}
